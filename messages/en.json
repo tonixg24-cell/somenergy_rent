@@ -1,0 +1,216 @@
+{
+  "home": {
+    "heroTitle": "Premium Car Rental in ",
+    "heroTitle2": " Somenergy Rent",
+    "heroDescription": "Discover the best car rental experience. New, safe, and stylish vehicles for every occasion. Book online quickly and easily.",
+    "getQuote": "View car catalog",
+    "section1": {
+      "title1": "Fast and easy booking",
+      "desc1": "Choose your ideal car and book it in minutes, hassle-free.",
+      "title2": "Transparent pricing",
+      "desc2": "No surprises: know the final price from the start, with no hidden fees.",
+      "title3": "Personalized attention",
+      "desc3": "Our team supports you before, during, and after your rental so you only have to enjoy."
+    },
+    "reformSection": {
+      "title": "Why choose us?",
+      "description": "At Somenergy Rent we offer a modern fleet, professional service, and maximum flexibility. Book online, pay securely, and drive worry-free. Travel at your own pace with the best rental experience!",
+      "cards": [
+        {
+          "title": "New and inspected cars",
+          "desc": "Our fleet is constantly renewed and all vehicles pass quality checks."
+        },
+        {
+          "title": "100% online booking",
+          "desc": "Manage your reservation and payment from any device, securely."
+        },
+        {
+          "title": "Full insurance included",
+          "desc": "Drive with peace of mind: all our cars include comprehensive insurance."
+        },
+        {
+          "title": "Flexible cancellation",
+          "desc": "Change or cancel your booking for free up to 24h before."
+        },
+        {
+          "title": "24/7 support",
+          "desc": "We are available to help you anytime, every day."
+        },
+        {
+          "title": "Easy pick-up and drop-off",
+          "desc": "Choose where to pick up and return your car, no waiting."
+        }
+      ],
+      "moreInfoButton": "Learn more"
+    },
+    "seoTitle": "Car Rental in Barcelona | Somenergy Rent",
+    "seoDescription": "Premium car rental in Barcelona. Book online, clear prices, and personalized service. Modern fleet and insurance included.",
+    "seoKeywords": "car rental, rent a car, premium cars, Barcelona, online booking",
+    "ogTitle": "Somenergy Rent | Premium Car Rental",
+    "ogDescription": "Enjoy the best car rental experience in Barcelona. New vehicles, clear prices, and professional service."
+  },
+  "ourServicesComponent": {
+    "title": "Our Services",
+    "viewAll": "View all cars",
+    "items": [
+      {
+        "title": "Car rental by days",
+        "description": "Choose the car that best suits your trip and rent it for as long as you need.",
+        "image": "/images/alquiler_coches.jpeg",
+        "alt": "Premium car available for rent at Somenergy Rent"
+      },
+      {
+        "title": "Flexible pick-up and drop-off",
+        "description": "Pick up and return your car at the place and time you prefer, no waiting.",
+        "image": "/images/entrega_recogida_flexible.jpeg",
+        "alt": "Car rental pick-up in Barcelona"
+      },
+      {
+        "title": "24/7 personalized support",
+        "description": "Our team is available to help you at all times, before, during, and after your rental.",
+        "image": "/images/atencion.png",
+        "alt": "Car rental customer support"
+      }
+    ]
+  },
+  "header": {
+    "menu": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Catalog",
+      "contact": "Contact",
+      "menu": "Menu",
+      "language": "Language"
+    },
+    "contactButton": "Book now",
+    "social": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "tiktok": "TikTok"
+    }
+  },
+  "footer": {
+    "slogan": "We transform spaces into works of art. Professionalism, trust, and passion in every project.",
+    "contactInfoTitle": "Contact Information",
+    "address": "Carrer de Dante Alighieri, Horta-Guinardó, 08032 Barcelona",
+    "phone": "+34 607 05 71 87",
+    "email": "info@somenergyrent.es",
+    "quickLinksTitle": "Quick Links",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  },
+  "services": {
+    "title": "Car rental services",
+    "description": "At Somenergy Rent we offer premium car rental in Barcelona. Book online, clear prices, insurance included, and personalized service. Choose from a modern fleet and enjoy maximum flexibility.",
+    "seoTitle": "Car Rental in Barcelona | Somenergy Rent",
+    "seoDescription": "Discover all our car rental services in Barcelona: modern fleet, insurance included, flexible pick-up, and 24/7 support.",
+    "seoKeywords": "car rental, rent a car, premium cars, Barcelona, online booking",
+    "ogTitle": "Car Rental in Barcelona | Somenergy Rent",
+    "ogDescription": "Rent your car in Barcelona with Somenergy Rent. New vehicles, clear prices, and professional service.",
+    "items": [
+      {
+        "brand": "BMW",
+        "model": "3 Series",
+        "year": 2023,
+        "pricePerDay": 79,
+        "description": "Premium automatic sedan, ideal for business or leisure trips. Equipped with GPS, climate control, and all safety systems.",
+        "image": "/images/bmw-serie3.jpg",
+        "alt": "BMW 3 Series 2023 metallic gray",
+        "reserved": false
+      },
+      {
+        "brand": "Mercedes-Benz",
+        "model": "GLA 200",
+        "year": 2022,
+        "pricePerDay": 85,
+        "description": "Compact SUV, perfect for families or getaways. Efficient engine, large trunk, and advanced connectivity.",
+        "image": "/images/mercedes-gla.jpg",
+        "alt": "Mercedes-Benz GLA 200 white 2022",
+        "reserved": true
+      },
+      {
+        "brand": "Audi",
+        "model": "A1 Sportback",
+        "year": 2023,
+        "pricePerDay": 65,
+        "description": "Urban compact, easy to park and very efficient. Ideal for getting around the city with style and comfort.",
+        "image": "/images/audi-a1.jpg",
+        "alt": "Audi A1 Sportback red 2023",
+        "reserved": false
+      },
+      {
+        "brand": "Volkswagen",
+        "model": "Tiguan",
+        "year": 2022,
+        "pricePerDay": 78,
+        "description": "Spacious SUV, perfect for long trips or group getaways. Includes parking sensors and multimedia screen.",
+        "image": "/images/vw-tiguan.jpg",
+        "alt": "Volkswagen Tiguan blue 2022",
+        "reserved": false
+      },
+      {
+        "brand": "Toyota",
+        "model": "Corolla Hybrid",
+        "year": 2023,
+        "pricePerDay": 69,
+        "description": "Hybrid sedan, maximum efficiency and low emissions. Smooth driving and all safety assistants.",
+        "image": "/images/toyota-corolla.jpg",
+        "alt": "Toyota Corolla Hybrid gray 2023",
+        "reserved": true
+      },
+      {
+        "brand": "Peugeot",
+        "model": "3008",
+        "year": 2022,
+        "pricePerDay": 72,
+        "description": "Modern SUV, spacious interior and latest generation technology. Perfect for families and long trips.",
+        "image": "/images/peugeot-3008.jpg",
+        "alt": "Peugeot 3008 black 2022",
+        "reserved": false
+      }
+    ]
+  },
+  "about": {
+    "mainTitle": "Experts in ",
+    "mainTitle2": "Premium Car Rental ",
+    "mainTitle3": "in Barcelona",
+    "subtitle": "Somenergy Rent: Quality, trust, and flexibility for your mobility",
+    "description": "At Somenergy Rent we specialize in car rental in Barcelona. We offer a modern fleet, personalized service, and clear prices. Our team supports you throughout the process so you enjoy a comfortable and safe rental experience. Travel at your own pace with Somenergy Rent!",
+    "cta": "View car catalog",
+    "seoTitle": "About Us | Car Rental in Barcelona | Somenergy Rent",
+    "seoDescription": "Get to know Somenergy Rent, specialists in premium car rental in Barcelona. Modern fleet, professional service, and maximum flexibility.",
+    "seoKeywords": "about us, car rental, Barcelona, rent a car, premium",
+    "ogTitle": "About Somenergy Rent | Premium Car Rental",
+    "ogDescription": "Discover who we are and why we are your best choice for car rental in Barcelona. Experience, trust, and guaranteed results."
+  },
+  "contactFloating": {
+    "help": "Need help?",
+    "whatsapp": "Whatsapp",
+    "email": "Write to us",
+    "call": "Call us"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Do you have questions or need help with your car rental? Our team is available to assist you before, during, and after your booking. Write to us, call us, or visit our office in Barcelona.",
+    "phoneLabel": "Phone:",
+    "phone": "+34 607 05 71 87",
+    "emailLabel": "Email:",
+    "email": "info@somenergyrent.com",
+    "addressLabel": "Address:",
+    "address": "Carrer de Dante Alighieri, 08032 Barcelona",
+    "addressUrl": "https://maps.app.goo.gl/1Qw2e3r4t5y6u7i8",
+    "instagramUrl": "https://instagram.com/somenergyrent",
+    "facebookUrl": "https://facebook.com/somenergyrent",
+    "tiktokUrl": "https://tiktok.com/@somenergyrent"
+  },
+  "languageSwitcher": {
+    "SelectLanguage": "Select language",
+    "Spanish": " Spanish",
+    "English": "English"
+  }
+}

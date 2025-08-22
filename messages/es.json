@@ -1,0 +1,198 @@
+{
+  "home": {
+    "heroTitle": "Alquiler de Coches Premium en ",
+    "heroTitle2": " Somenergy Rent",
+    "heroDescription": "Descubre la mejor experiencia de alquiler de coches. Vehículos nuevos, seguros y elegantes para cada ocasión. Reserva online de forma rápida y sencilla.",
+    "getQuote": "Ver catálogo de coches",
+    "section1": {
+      "title1": "Reserva fácil y rápida",
+      "desc1": "Elige tu coche ideal y resérvalo en minutos, sin complicaciones ni papeleos.",
+      "title2": "Precios transparentes",
+      "desc2": "Sin sorpresas: conoce el precio final desde el principio, sin cargos ocultos.",
+      "title3": "Atención personalizada",
+      "desc3": "Nuestro equipo te acompaña antes, durante y después de tu alquiler para que solo te preocupes de disfrutar."
+    },
+    "reformSection": {
+      "title": "¿Por qué elegirnos?",
+      "description": "En Somenergy Rent ofrecemos una flota de coches moderna, atención profesional y máxima flexibilidad. Reserva online, paga de forma segura y conduce sin preocupaciones. ¡Viaja a tu ritmo con la mejor experiencia de alquiler!",
+      "cards": [
+        {
+          "title": "Coches nuevos y revisados",
+          "desc": "Nuestra flota se renueva constantemente y todos los vehículos pasan controles de calidad."
+        },
+        {
+          "title": "Reserva 100% online",
+          "desc": "Gestiona tu reserva y pago desde cualquier dispositivo, de forma segura."
+        },
+        {
+          "title": "Seguro a todo riesgo",
+          "desc": "Conduce tranquilo: todos nuestros coches incluyen seguro completo."
+        },
+        {
+          "title": "Cancelación flexible",
+          "desc": "Modifica o cancela tu reserva sin coste hasta 24h antes."
+        },
+        {
+          "title": "Atención 24/7",
+          "desc": "Estamos disponibles para ayudarte en cualquier momento, todos los días."
+        },
+        {
+          "title": "Entrega y recogida fácil",
+          "desc": "Elige dónde recoger y devolver tu coche, sin esperas."
+        }
+      ],
+      "moreInfoButton": "Saber más"
+    },
+    "seoTitle": "Alquiler de Coches en Barcelona | Somenergy Rent",
+    "seoDescription": "Alquiler de coches premium en Barcelona. Reserva online, precios claros y atención personalizada. Flota moderna y seguro incluido.",
+    "seoKeywords": "alquiler de coches, rent a car, coches premium, Barcelona, reserva online",
+    "ogTitle": "Somenergy Rent | Alquiler de Coches Premium",
+    "ogDescription": "Vive la mejor experiencia de alquiler de coches en Barcelona. Vehículos nuevos, precios claros y atención profesional.",
+    "heroImage": "/images/hero.jpg",
+    "heroImageAlt": "Coche premium disponible para alquilar en Somenergy Rent",
+    "valuePropositions": "Ventajas de alquilar con nosotros"
+  },
+  "ourServicesComponent": {
+    "title": "Nuestros Servicios",
+    "viewAll": "Ver toda la flota",
+    "items": [
+      {
+        "title": "Alquiler de coches por días",
+        "description": "Elige el coche que mejor se adapte a tu viaje y resérvalo por el tiempo que necesites.",
+        "image": "/images/alquiler_coches.jpeg",
+        "alt": "Coche premium disponible para alquilar en Somenergy Rent"
+      },
+      {
+        "title": "Entrega y recogida flexible",
+        "description": "Recoge y devuelve tu coche en el lugar y horario que prefieras, sin esperas.",
+        "image": "/images/entrega_recogida_flexible.jpeg",
+        "alt": "Entrega de coche de alquiler en Barcelona"
+      },
+      {
+        "title": "Atención personalizada 24/7",
+        "description": "Nuestro equipo está disponible para ayudarte en todo momento, antes, durante y después del alquiler.",
+        "image": "/images/atencion.png",
+        "alt": "Atención al cliente de alquiler de coches"
+      }
+    ]
+  },
+  "header": {
+    "menu": {
+      "home": "Inicio",
+      "about": "Sobre nosotros",
+      "services": "Catálogo",
+      "contact": "Contacto",
+      "menu": "Menú",
+      "language": "Idioma"
+    },
+    "contactButton": "Reservar ahora",
+    "social": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "tiktok": "TikTok"
+    }
+  },
+  
+    "footer": {
+      "slogan": "Tu viaje empieza aquí. Alquiler de coches premium, fácil y seguro.",
+      "contactInfoTitle": "Contacto",
+      "address": "Carrer de Dante Alighieri, 08032 Barcelona",
+      "phone": "+34 +34 607 05 71 87",
+      "email": "info@somenergyrent.com",
+      "quickLinksTitle": "Enlaces rápidos",
+      "links": {
+        "home": "Inicio",
+        "about": "Sobre nosotros",
+        "services": "Catálogo",
+        "contact": "Contacto",
+        "privacy": "Privacidad"
+      }
+    }
+   
+  ,
+  "services": {
+    "title": "Servicios de alquiler de coches",
+    "description": "En Somenergy Rent te ofrecemos alquiler de coches premium en Barcelona. Reserva online, precios claros, seguro incluido y atención personalizada. Elige entre una flota moderna y disfruta de la máxima flexibilidad.",
+    "seoTitle": "Alquiler de Coches en Barcelona | Somenergy Rent",
+    "seoDescription": "Descubre todos nuestros servicios de alquiler de coches en Barcelona: flota moderna, seguro incluido, entrega flexible y atención 24/7.",
+    "seoKeywords": "alquiler de coches, rent a car, coches premium, Barcelona, reserva online",
+    "ogTitle": "Alquiler de Coches en Barcelona | Somenergy Rent",
+    "ogDescription": "Alquila tu coche en Barcelona con Somenergy Rent. Vehículos nuevos, precios claros y atención profesional.",
+    "items": [
+      {
+        "marca": "BMW",
+        "modelo": "Serie 3",
+        "año": 2023,
+        "precioPorDia": 79,
+        "descripcion": "Sedán premium automático, ideal para viajes de negocios o placer. Equipado con GPS, climatizador y todos los sistemas de seguridad.",
+        "imagen": "/images/BMW_Serie_3_2023.jpeg",
+        "alt": "BMW Serie 3 2023 gris metalizado",
+        "reservado": false
+      },
+      {
+        "marca": "Mercedes-Benz",
+        "modelo": "GLA 200",
+        "año": 2022,
+        "precioPorDia": 85,
+        "descripcion": "SUV compacto, perfecto para familias o escapadas. Motor eficiente, amplio maletero y conectividad avanzada.",
+        "imagen": "/images/2.jpg",
+        "alt": "Mercedes-Benz GLA 200 blanco 2022",
+        "reservado": true
+      },
+      {
+        "marca": "Audi",
+        "modelo": "A1 Sportback",
+        "año": 2023,
+        "precioPorDia": 65,
+        "descripcion": "Compacto urbano, fácil de aparcar y muy eficiente. Ideal para moverse por la ciudad con estilo y comodidad.",
+        "imagen": "/images/3.webp",
+        "alt": "Audi A1 Sportback rojo 2023",
+        "reservado": false
+      },
+      {
+        "marca": "Volkswagen",
+        "modelo": "Tiguan",
+        "año": 2022,
+        "precioPorDia": 78,
+        "descripcion": "SUV espacioso, perfecto para viajes largos o escapadas en grupo. Incluye sensores de aparcamiento y pantalla multimedia.",
+        "imagen": "/images/Large-14971-2022Tiguan.webp",
+        "alt": "Volkswagen Tiguan azul 2022",
+        "reservado": false
+      }
+    ]
+  },
+  "about": {
+    "mainTitle": "Expertos en ",
+    "mainTitle2": "Alquiler de Coches Premium ",
+    "mainTitle3": "en Barcelona",
+    "subtitle": "Somenergy Rent: Calidad, confianza y flexibilidad para tu movilidad",
+    "description": "En Somenergy Rent somos especialistas en alquiler de coches en Barcelona. Ofrecemos una flota moderna, atención personalizada y precios claros. Nuestro equipo te acompaña en todo el proceso para que disfrutes de una experiencia de alquiler cómoda y segura. ¡Viaja a tu ritmo con Somenergy Rent!",
+    "cta": "Ver catálogo de coches",
+    "seoTitle": "Sobre Nosotros | Alquiler de Coches en Barcelona | Somenergy Rent",
+    "seoDescription": "Conoce a Somenergy Rent, especialistas en alquiler de coches premium en Barcelona. Flota moderna, atención profesional y máxima flexibilidad.",
+    "seoKeywords": "sobre nosotros, alquiler de coches, Barcelona, rent a car, premium",
+    "ogTitle": "Sobre Somenergy Rent | Alquiler de Coches Premium",
+    "ogDescription": "Descubre quiénes somos y por qué somos tu mejor opción en alquiler de coches en Barcelona. Experiencia, confianza y resultados garantizados."
+  },
+
+  "contact": {
+    "title": "Contacto",
+    "description": "¿Tienes dudas o necesitas ayuda con tu reserva de coche? Nuestro equipo está disponible para asesorarte antes, durante y después del alquiler. Escríbenos, llámanos o visítanos en nuestra oficina en Barcelona.",
+    "phoneLabel": "Teléfono:",
+    "phone": "+34 607 05 71 87",
+    "emailLabel": "Email:",
+    "email": "info@somenergyrent.com",
+    "addressLabel": "Dirección:",
+    "address": "Carrer de Dante Alighieri, 08032 Barcelona",
+    "addressUrl": "https://maps.app.goo.gl/1Qw2e3r4t5y6u7i8",
+    "instagramUrl": "https://instagram.com/somenergyrent",
+    "facebookUrl": "https://facebook.com/somenergyrent",
+    "tiktokUrl": "https://tiktok.com/@somenergyrent"
+  },
+  "languageSwitcher": {
+    "SelectLanguage": "Selecciona idioma",
+    "Spanish": " Español",
+    "English": "Inglés"
+  }
+
+}
