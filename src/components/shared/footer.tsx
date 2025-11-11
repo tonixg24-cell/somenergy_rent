@@ -5,14 +5,14 @@ const year = new Date().getFullYear();
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1A1A1A] py-8 text-[#f3f4f6] text-sm w-full">
+    <footer className="bg-[#1A1A1A] py-4 text-[#f3f4f6] text-sm w-full">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 gap-4">
         <div className="flex items-center gap-4">
           <Logo width={80} height={50} src="/images/logo.jpg" />
           <span className="font-semibold text-lg">Somenergy Rent</span>
         </div>
-        <nav className="flex flex-row gap-6 items-center">
-          <Link href="/coches" className="hover:underline text-[#f3f4f6]">Catálogo</Link>
+        <nav className="flex flex-row gap-4 items-center">
+          <Link href="/servicios" className="hover:underline text-[#f3f4f6]">Catálogo</Link>
           <Link href="/sobre-nosotros" className="hover:underline text-[#f3f4f6]">Sobre nosotros</Link>
           <Link href="/contacto" className="hover:underline text-[#f3f4f6]">Contacto</Link>
           <Link href="/privacidad" className="hover:underline text-[#f3f4f6]">Privacidad</Link>
@@ -30,3 +30,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
