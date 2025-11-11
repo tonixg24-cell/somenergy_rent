@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React from 'react';
 
 // 1. Definición de tipos para los datos de la empresa y props de componentes
 interface CompanyData {
@@ -21,18 +21,29 @@ const companyData: CompanyData = {
 };
 
 // Componente auxiliar para renderizar cada ítem de condición
-const ConditionItem: FC<ConditionItemProps> = ({ text }) => (
+const ConditionItem = ({ text }: ConditionItemProps) => (
   <li className="flex items-start mb-2">
-    {/* Icono simple de checkmark para coherencia visual */}
-    <svg className="w-5 h-5 text-teal-600 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+    <svg
+      className="w-5 h-5 text-teal-600 mr-2 mt-1 flex-shrink-0"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+      ></path>
     </svg>
     <span className="text-gray-700 leading-relaxed">{text}</span>
   </li>
 );
 
 // Componente principal
-const App: FC = () => {
+const TerminosYCondiciones = () => {
   // Definición de las secciones de los Términos
   const sections = [
     {
@@ -40,23 +51,39 @@ const App: FC = () => {
       title: "Identificación de la empresa",
       content: (
         <div className="space-y-2 text-gray-700">
-          <p>El presente sitio web es titularidad de <strong className="font-semibold">{companyData.titular}</strong>, con domicilio en <strong className="font-semibold">{companyData.domicilio}</strong>.</p>
+          <p>
+            El presente sitio web es titularidad de <strong className="font-semibold">{companyData.titular}</strong>, con domicilio en <strong className="font-semibold">{companyData.domicilio}</strong>.
+          </p>
           <ul className="list-disc list-inside ml-4 space-y-1">
-            <li><strong className="font-semibold">CIF:</strong> {companyData.cif}</li>
-            <li><strong className="font-semibold">Correo de contacto:</strong> <a href={`mailto:${companyData.email}`} className="text-teal-600 hover:text-teal-800 underline transition duration-150">{companyData.email}</a></li>
+            <li>
+              <strong className="font-semibold">CIF:</strong> {companyData.cif}
+            </li>
+            <li>
+              <strong className="font-semibold">Correo de contacto:</strong>{' '}
+              <a
+                href={`mailto:${companyData.email}`}
+                className="text-teal-600 hover:text-teal-800 underline transition duration-150"
+              >
+                {companyData.email}
+              </a>
+            </li>
           </ul>
         </div>
-      )
+      ),
     },
     {
       id: 2,
       title: "Objeto del servicio",
       content: (
         <div className="space-y-2 text-gray-700">
-          <p>A través de esta página web, <strong className="font-semibold">VEHÍCULOS AM</strong> ofrece servicios de alquiler de coches y furgonetas sin conductor, disponibles para particulares y empresas.</p>
-          <p>El uso del sitio web y la realización de una reserva implican la aceptación plena de los presentes Términos y Condiciones.</p>
+          <p>
+            A través de esta página web, <strong className="font-semibold">VEHÍCULOS AM</strong> ofrece servicios de alquiler de coches y furgonetas sin conductor, disponibles para particulares y empresas.
+          </p>
+          <p>
+            El uso del sitio web y la realización de una reserva implican la aceptación plena de los presentes Términos y Condiciones.
+          </p>
         </div>
-      )
+      ),
     },
     {
       id: 3,
@@ -69,50 +96,72 @@ const App: FC = () => {
           <ConditionItem text="El alquiler no incluye combustible, peajes ni multas, que serán responsabilidad del cliente." />
           <ConditionItem text="No se permite el uso del vehículo para transporte comercial no autorizado, competiciones, subarriendo o conducción bajo los efectos del alcohol o drogas." />
         </ul>
-      )
+      ),
     },
     {
       id: 4,
       title: "Reservas y pagos",
       content: (
         <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
-          <li>Las reservas se realizan exclusivamente online, mediante pago anticipado total del importe del alquiler.</li>
-          <li>Los precios mostrados incluyen IVA y seguros obligatorios (ver condiciones específicas del seguro al momento de la reserva).</li>
-          <li>VEHÍCULOS AM se reserva el derecho de rechazar o cancelar reservas en caso de errores evidentes en precios o disponibilidad.</li>
+          <li>
+            Las reservas se realizan exclusivamente online, mediante pago anticipado total del importe del alquiler.
+          </li>
+          <li>
+            Los precios mostrados incluyen IVA y seguros obligatorios (ver condiciones específicas del seguro al momento de la reserva).
+          </li>
+          <li>
+            VEHÍCULOS AM se reserva el derecho de rechazar o cancelar reservas en caso de errores evidentes en precios o disponibilidad.
+          </li>
         </ul>
-      )
+      ),
     },
     {
       id: 5,
       title: "Depósito de seguridad (fianza)",
       content: (
         <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
-          <li>En el momento de la recogida del vehículo podrá requerirse una fianza mediante tarjeta de crédito o débito para cubrir posibles daños o incumplimientos contractuales.</li>
-          <li>El importe de la fianza se reembolsará íntegramente una vez comprobado el estado del vehículo y el cumplimiento de las condiciones del alquiler.</li>
+          <li>
+            En el momento de la recogida del vehículo podrá requerirse una fianza mediante tarjeta de crédito o débito para cubrir posibles daños o incumplimientos contractuales.
+          </li>
+          <li>
+            El importe de la fianza se reembolsará íntegramente una vez comprobado el estado del vehículo y el cumplimiento de las condiciones del alquiler.
+          </li>
         </ul>
-      )
+      ),
     },
     {
       id: 6,
       title: "Política de cancelación y reembolsos",
       content: (
         <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
-          <li><strong className="font-semibold">Cancelación con más de 24 horas de antelación:</strong> reembolso del 100% del importe pagado.</li>
-          <li><strong className="font-semibold">Cancelación con menos de 24 horas:</strong> reembolso del 50% del importe pagado.</li>
-          <li>No se realizará ningún reembolso si el cliente no se presenta a recoger el vehículo sin notificación previa.</li>
+          <li>
+            <strong className="font-semibold">Cancelación con más de 24 horas de antelación:</strong> reembolso del 100% del importe pagado.
+          </li>
+          <li>
+            <strong className="font-semibold">Cancelación con menos de 24 horas:</strong> reembolso del 50% del importe pagado.
+          </li>
+          <li>
+            No se realizará ningún reembolso si el cliente no se presenta a recoger el vehículo sin notificación previa.
+          </li>
         </ul>
-      )
+      ),
     },
     {
       id: 7,
       title: "Entrega y devolución",
       content: (
         <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
-          <li>El vehículo deberá recogerse y devolverse en el lugar, fecha y hora acordados.</li>
-          <li>Los retrasos en la devolución podrán generar cargos adicionales.</li>
-          <li>VEHÍCULOS AM podrá rescindir el contrato en caso de incumplimiento grave por parte del cliente.</li>
+          <li>
+            El vehículo deberá recogerse y devolverse en el lugar, fecha y hora acordados.
+          </li>
+          <li>
+            Los retrasos en la devolución podrán generar cargos adicionales.
+          </li>
+          <li>
+            VEHÍCULOS AM podrá rescindir el contrato en caso de incumplimiento grave por parte del cliente.
+          </li>
         </ul>
-      )
+      ),
     },
     {
       id: 8,
@@ -126,21 +175,25 @@ const App: FC = () => {
             <li>Pérdida de llaves, documentación o accesorios.</li>
           </ul>
         </>
-      )
+      ),
     },
     {
       id: 9,
       title: "Responsabilidad de VEHÍCULOS AM",
       content: (
         <>
-          <p className="mb-2 text-gray-700">VEHÍCULOS AM se compromete a mantener sus vehículos en condiciones óptimas de uso y seguridad.</p>
-          <p className="mb-2 text-gray-700">No obstante, no será responsable de:</p>
+          <p className="mb-2 text-gray-700">
+            VEHÍCULOS AM se compromete a mantener sus vehículos en condiciones óptimas de uso y seguridad.
+          </p>
+          <p className="mb-2 text-gray-700">
+            No obstante, no será responsable de:
+          </p>
           <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
             <li>Retrasos o fallos debidos a causas de fuerza mayor (accidentes, tráfico, climatología, etc.).</li>
             <li>Daños indirectos, lucro cesante o perjuicios económicos derivados del uso o imposibilidad de uso del vehículo.</li>
           </ul>
         </>
-      )
+      ),
     },
     {
       id: 10,
@@ -151,42 +204,60 @@ const App: FC = () => {
           <li>Está prohibido el uso fraudulento, la recolección de datos de otros usuarios o el acceso no autorizado a áreas restringidas.</li>
           <li>VEHÍCULOS AM no se hace responsable de posibles errores técnicos o interrupciones temporales del servicio web.</li>
         </ul>
-      )
+      ),
     },
     {
       id: 11,
       title: "Propiedad intelectual",
       content: (
-        <p className="text-gray-700">Todos los contenidos del sitio (textos, imágenes, logotipos, marcas, etc.) son propiedad de VEHÍCULOS AM o de sus legítimos titulares, y están protegidos por la legislación vigente. Queda prohibida su reproducción, distribución o modificación sin autorización expresa.</p>
-      )
+        <p className="text-gray-700">
+          Todos los contenidos del sitio (textos, imágenes, logotipos, marcas, etc.) son propiedad de VEHÍCULOS AM o de sus legítimos titulares, y están protegidos por la legislación de propiedad intelectual e industrial.
+        </p>
+      ),
     },
     {
       id: 12,
       title: "Protección de datos personales",
       content: (
         <div className="space-y-2 text-gray-700">
-          <p>VEHÍCULOS AM cumple con el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD).</p>
+          <p>
+            VEHÍCULOS AM cumple con el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD).
+          </p>
           <ul className="list-disc list-outside ml-5 space-y-2">
-            <li>Los datos personales facilitados se tratarán para la gestión de reservas, contratos y comunicaciones con los clientes.</li>
-            <li>El usuario podrá ejercer sus derechos de acceso, rectificación, supresión, oposición, portabilidad y limitación del tratamiento mediante solicitud escrita a <a href={`mailto:${companyData.email}`} className="text-teal-600 hover:text-teal-800 underline transition duration-150">[tu email o dirección física]</a>.</li>
-            <li>Para más información, consulte nuestra <strong className="font-semibold">Política de Privacidad</strong> completa disponible en el sitio web.</li>
+            <li>
+              Los datos personales facilitados se tratarán para la gestión de reservas, contratos y comunicaciones con los clientes.
+            </li>
+            <li>
+              El usuario podrá ejercer sus derechos de acceso, rectificación, supresión, oposición, portabilidad y limitación del tratamiento mediante solicitud escrita a{' '}
+              <a
+                href={`mailto:${companyData.email}`}
+                className="text-teal-600 hover:text-teal-800 underline transition duration-150"
+              >
+                {companyData.email}
+              </a>
+              .
+            </li>
+            <li>
+              Para más información, consulte nuestra <strong className="font-semibold">Política de Privacidad</strong> completa disponible en el sitio web.
+            </li>
           </ul>
         </div>
-      )
+      ),
     },
     {
       id: 13,
       title: "Legislación y jurisdicción aplicable",
       content: (
-        <p className="text-gray-700">Los presentes Términos y Condiciones se rigen por la legislación española. Cualquier controversia se someterá a los Juzgados y Tribunales de Barcelona, salvo disposición legal en contrario.</p>
-      )
+        <p className="text-gray-700">
+          Los presentes Términos y Condiciones se rigen por la legislación española. Cualquier controversia se someterá a los Juzgados y Tribunales de Barcelona, salvo que la normativa aplicable establezca otra cosa.
+        </p>
+      ),
     },
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 py-10 sm:py-16 font-inter">
+    <main className="min-h-screen bg-gray-50 py-10 sm:py-16 font-inter">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         {/* Encabezado Principal */}
         <div className="text-center mb-10">
           <h1 className="text-4xl font-extrabold text-teal-800 sm:text-5xl tracking-tight">
@@ -201,24 +272,19 @@ const App: FC = () => {
         </div>
 
         {/* Contenedor de las Secciones */}
-        <div className="bg-white shadow-xl rounded-xl p-6 sm:p-10 space-y-8 border-t-4 border-teal-600">
-          
+        <div className="bg-white shadow-xl rounded-xl p-6 sm:p-10 space-y-8 border-t-4 border-teal-600"> 
           {sections.map((section) => (
             <div key={section.id} className="pt-4 border-b border-gray-100 last:border-b-0">
               <h2 className="text-2xl font-bold text-gray-800 mb-3">
                 {section.id}. {section.title}
               </h2>
-              <div className="mb-6 pl-1">
-                {section.content}
-              </div>
+              <div className="mb-6 pl-1">{section.content}</div>
             </div>
           ))}
-
         </div>
-
       </div>
-    </div>
+    </main>
   );
 };
 
-export default App;
+export default TerminosYCondiciones;
