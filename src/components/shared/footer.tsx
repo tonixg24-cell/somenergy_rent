@@ -15,7 +15,7 @@ const Footer = () => {
           <Link href="/servicios" className="hover:underline text-[#f3f4f6]">Catálogo</Link>
           <Link href="/sobre-nosotros" className="hover:underline text-[#f3f4f6]">Sobre nosotros</Link>
           <Link href="/contacto" className="hover:underline text-[#f3f4f6]">Contacto</Link>
-          <Link href="/privacidad" className="hover:underline text-[#f3f4f6]">Privacidad</Link>
+          {/* <Link href="/privacidad" className="hover:underline text-[#f3f4f6]">Privacidad</Link> */}
           <Link href="/terminos-y-condiciones" className="hover:underline text-[#f3f4f6]">Terminos y condiciones</Link>
           <Link href="/aviso-legal" className="hover:underline text-[#f3f4f6]">Aviso Legal</Link>
         </nav>
@@ -30,4 +30,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
