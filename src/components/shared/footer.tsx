@@ -16,6 +16,7 @@ const Footer = () => {
           <Link href="/sobre-nosotros" className="hover:underline text-[#f3f4f6]">Sobre nosotros</Link>
           <Link href="/contacto" className="hover:underline text-[#f3f4f6]">Contacto</Link>
           <Link href="/privacidad" className="hover:underline text-[#f3f4f6]">Privacidad</Link>
+          <Link href="/terminos-y-condiciones" className="hover:underline text-[#f3f4f6]">Terminos y condiciones</Link>
         </nav>
         <div className="text-xs text-gray-400 text-center md:text-right">
           &copy; {year} Somenergy Rent. Todos los derechos reservados.<br />
@@ -27,4 +28,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
