@@ -18,7 +18,6 @@ const Footer = () => {
           <Link href="/privacidad" className="hover:underline text-[#f3f4f6]">Privacidad</Link>
           <Link href="/terminos-y-condiciones" className="hover:underline text-[#f3f4f6]">Terminos y condiciones</Link>
           <Link href="/aviso-legal" className="hover:underline text-[#f3f4f6]">Aviso Legal</Link>
-
         </nav>
         
         <div className="text-xs text-gray-400 text-center md:text-right">
@@ -31,6 +30,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
-
